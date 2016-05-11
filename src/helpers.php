@@ -51,4 +51,4 @@ if (!function_exists('trans')) {
 
         return pll__($key);
     }
-};
+}

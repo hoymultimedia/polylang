@@ -1,6 +1,6 @@
 # Translator
 
-A translations helper for [WordPlate](https://wordplate.github.io/). Built with [Polylang](https://wordpress.org/plugins/polylang/).
+A translations helper for [WordPlate](https://wordplate.github.io/) built with [Polylang](https://wordpress.org/plugins/polylang/).
 
 ## Installation
 

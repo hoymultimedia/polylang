@@ -38,7 +38,7 @@ echo trans('contact-email');
 
 ## Documentation
 
-Please visit [Polylang's documentation](https://wordpress.org/plugins/polylang/) to find out more about translating your posts types.
+Please visit [Polylang's documentation](https://wordpress.org/plugins/polylang/) to find out more about translating your post types.
 
 ## License
 

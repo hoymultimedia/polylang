@@ -41,6 +41,8 @@ if (!function_exists('trans')) {
      *
      * @param string $key
      *
+     * @throws BadFunctionCallException
+     *
      * @return string
      */
     function trans($key)

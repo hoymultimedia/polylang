@@ -36,6 +36,10 @@ Then to fetch and print a translation you can use the `trans` method.
 echo trans('contact-email');
 ```
 
+## Documentation
+
+Please visit [Polylang's documentation](https://wordpress.org/plugins/polylang/) to find out more about translating your posts types.
+
 ## License
 
 Translator is licensed under [The MIT License (MIT)](LICENSE).

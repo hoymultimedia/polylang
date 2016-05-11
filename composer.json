@@ -1,0 +1,35 @@
+{
+    "name": "wordplate/translator",
+    "description": "A translations helper for WordPlate",
+    "keywords": ["wordplate", "translator", "wordpress", "plugin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vincent Klaiber",
+            "email": "hello@vinkla.com"
+        },
+        {
+            "name": "Chris Andersson",
+            "email": "hello@puredazzle.se"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9 || ^7.0",
+        "wpackagist-plugin/polylang": "^1.9"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist",
+    },
+    "extra":{
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

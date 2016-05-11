@@ -22,8 +22,14 @@
             "src/helpers.php"
         ]
     },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
     "config": {
-        "preferred-install": "dist",
+        "preferred-install": "dist"
     },
     "extra":{
         "branch-alias": {

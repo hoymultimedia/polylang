@@ -1,7 +1,7 @@
 {
     "name": "wordplate/translator",
     "description": "A translations helper for WordPlate",
-    "keywords": ["wordplate", "translator", "wordpress", "plugin"],
+    "keywords": ["wordplate", "translator", "wordpress"],
     "license": "MIT",
     "authors": [
         {

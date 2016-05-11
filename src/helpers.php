@@ -21,7 +21,8 @@ if (!function_exists('register_translations')) {
      *
      * @return void
      */
-    function register_translations(array $groups) {
+    function register_translations(array $groups)
+    {
         if (!function_exists('pll_register_string')) {
             throw new BadFunctionCallException('Please active the Polylang plugin.');
         }

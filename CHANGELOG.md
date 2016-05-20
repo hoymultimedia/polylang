@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.0.3 (released 2016-05-20)
+
+- Remove used exception
+
 ## 1.0.1 (released 2016-05-20)
 
 - Add lang to trans helper

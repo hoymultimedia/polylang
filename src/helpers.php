@@ -9,8 +9,6 @@
  * file that was distributed with this source code.
  */
 
-use BadFunctionCallException;
-
 if (!function_exists('register_translations')) {
     /**
      * Register translations.

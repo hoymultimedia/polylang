@@ -16,12 +16,13 @@ if (!function_exists('register_translations')) {
      * Register translations.
      *
      * @param array $groups
+     * @param bool $multiline
      *
      * @throws \BadFunctionCallException
      *
      * @return void
      */
-    function register_translations(array $groups)
+    function register_translations(array $groups, $multiline = false)
     {
         if (!function_exists('pll_register_string')) {
             throw new BadFunctionCallException('Please active the Polylang plugin.');
@@ -29,7 +30,7 @@ if (!function_exists('register_translations')) {
 
         foreach ($groups as $group => $translations) {
             foreach ($translations as $key => $description) {
-                pll_register_string($description, $key, $group);
+                pll_register_string($description, $key, $group, $multiline);
             }
         }
     }

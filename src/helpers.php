@@ -17,7 +17,7 @@ if (!function_exists('register_translations')) {
      *
      * @param array $groups
      *
-     * @throws BadFunctionCallException
+     * @throws \BadFunctionCallException
      *
      * @return void
      */
@@ -40,15 +40,20 @@ if (!function_exists('trans')) {
      * Get translations by their strings.
      *
      * @param string $key
+     * @param string|null $lang
      *
-     * @throws BadFunctionCallException
+     * @throws \BadFunctionCallException
      *
      * @return string
      */
-    function trans($key)
+    function trans($key, $lang = null)
     {
         if (!function_exists('pll__')) {
             throw new BadFunctionCallException('Please active the Polylang plugin.');
+        }
+
+        if ($lang) {
+            return pll_translate_string($key, $lang);
         }
 
         return pll__($key);

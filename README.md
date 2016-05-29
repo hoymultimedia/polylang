@@ -2,6 +2,10 @@
 
 A translations helper for [WordPlate](https://wordplate.github.io/) built with [Polylang](https://wordpress.org/plugins/polylang/).
 
+[![StyleCI](https://styleci.io/repos/58547586/shield?style=flat)](https://styleci.io/repos/58547586)
+[![Latest Version](https://img.shields.io/github/release/wordplate/translator.svg?style=flat)](https://github.com/wordplate/translator/releases)
+[![License](https://img.shields.io/packagist/l/wordplate/translator.svg?style=flat)](https://packagist.org/packages/wordplate/translator)
+
 ## Installation
 
 Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.

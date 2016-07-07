@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 1.1.0 (upcoming)
+
+- Drop php 5.5 support
+
 ## 1.0.3 (released 2016-05-20)
 
 - Remove used exception

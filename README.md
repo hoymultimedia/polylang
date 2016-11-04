@@ -46,4 +46,4 @@ Please visit [Polylang's documentation](https://wordpress.org/plugins/polylang/)
 
 ## License
 
-Translator is licensed under [The MIT License (MIT)](LICENSE).
+[MIT](LICENSE) © [Vincent Klaiber](https://vinkla.com)

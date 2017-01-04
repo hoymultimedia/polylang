@@ -9,6 +9,8 @@
  * file that was distributed with this source code.
  */
 
+declare(strict_types=1);
+
 if (!function_exists('register_translations')) {
     /**
      * Register translations.
@@ -45,7 +47,7 @@ if (!function_exists('trans')) {
      *
      * @return string
      */
-    function trans($key, $lang = null)
+    function trans(string $key, string $lang = null): string
     {
         if (!function_exists('pll__')) {
             throw new BadFunctionCallException('Please active the Polylang plugin.');

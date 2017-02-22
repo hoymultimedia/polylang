@@ -1,3 +1,5 @@
+## WARNING! This package is no longer maintained.
+
 # Translator
 
 A translations helper for [WordPlate](https://wordplate.github.io/) built with [Polylang](https://wordpress.org/plugins/polylang/).

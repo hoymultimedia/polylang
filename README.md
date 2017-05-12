@@ -26,7 +26,7 @@ Register the translations with the `pll_translations` function. They will now be
 pll_translations([
     'group' => [
         'String that should be translatable by Polylang' => 'Explanation of how the string is used',
-    ]
+    ],
     'general' => [
         'English' => 'The english language',
         'Swedish' => 'The swedish language',

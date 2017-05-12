@@ -25,16 +25,39 @@ class HelpersTest extends TestCase
     /**
      * @expectedException \BadFunctionCallException
      */
-    public function testPllTranslations()
+    public function testPllTranslationsException()
     {
         pll_translations([]);
     }
 
     /**
+     * @runInSeparateProcess
+     */
+    public function testPllTranslations()
+    {
+        require __DIR__.'/stubs/functions.php';
+
+        $this->assertNull(pll_translations([
+            'general' => ['translation' => 'This is the translation'],
+        ]));
+    }
+
+    /**
      * @expectedException \BadFunctionCallException
+     */
+    public function testTransException()
+    {
+        trans('message');
+    }
+
+    /**
+     * @runInSeparateProcess
      */
     public function testTrans()
     {
-        trans('message');
+        require __DIR__.'/stubs/functions.php';
+
+        $this->assertSame('This is the translation', trans('translation'));
+        $this->assertSame('This is the translation', trans('translation', 'en'));
     }
 }

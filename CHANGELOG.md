@@ -2,6 +2,7 @@
 
 ## 2.0.0 (upcoming)
 
+- Added pll_translations function
 - Update package name
 - Update polylang version
 

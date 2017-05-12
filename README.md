@@ -13,7 +13,7 @@ A [Polylang](https://wordpress.org/plugins/polylang) helper for [WordPlate](http
 Require this package, with [Composer](https://getcomposer.org), in the root directory of your project.
 
 ```bash
-composer require wordplate/polylang
+$ composer require wordplate/polylang
 ```
 
 Login to the WordPress administrator dashboard and activate the [Polylang](https://wordpress.org/plugins/polylang) plugin. Go to the Polylang settings page and add at least one language.

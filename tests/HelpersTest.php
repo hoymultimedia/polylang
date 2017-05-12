@@ -29,4 +29,12 @@ class HelpersTest extends TestCase
     {
         pll_translations([]);
     }
+
+    /**
+     * @expectedException \BadFunctionCallException
+     */
+    public function testTrans()
+    {
+        trans('message');
+    }
 }

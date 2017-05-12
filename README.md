@@ -24,6 +24,9 @@ Register the translations with the `pll_translations` function. They will now be
 
 ```php
 pll_translations([
+    'group' => [
+        'String that should be translatable by Polylang' => 'Explanation of how the string is used',
+    ]
     'general' => [
         'English' => 'The english language',
         'Swedish' => 'The swedish language',
@@ -38,7 +41,7 @@ pll_translations([
 Then to fetch and print a translation you can use the `trans` function like you would use regular [__()](https://developer.wordpress.org/reference/functions/__) function.
 
 ```php
-echo trans('contact-email');
+echo trans('I understand');
 ```
 
 ## Documentation

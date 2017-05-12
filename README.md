@@ -1,20 +1,20 @@
-# Translator
+# Polylang
 
-A translations helper for [WordPlate](https://wordplate.github.io/) built with [Polylang](https://wordpress.org/plugins/polylang/).
+A [Polylang](https://wordpress.org/plugins/polylang) helper for [WordPlate](https://wordplate.github.io).
 
 [![StyleCI](https://styleci.io/repos/58547586/shield?style=flat)](https://styleci.io/repos/58547586)
-[![Latest Version](https://img.shields.io/github/release/wordplate/translator.svg?style=flat)](https://github.com/wordplate/translator/releases)
-[![License](https://img.shields.io/packagist/l/wordplate/translator.svg?style=flat)](https://packagist.org/packages/wordplate/translator)
+[![Latest Version](https://img.shields.io/github/release/wordplate/polylang.svg?style=flat)](https://github.com/wordplate/polylang/releases)
+[![License](https://img.shields.io/packagist/l/wordplate/polylang.svg?style=flat)](https://packagist.org/packages/wordplate/polylang)
 
 ## Installation
 
-Require this package, with [Composer](https://getcomposer.org/), in the root directory of your project.
+Require this package, with [Composer](https://getcomposer.org), in the root directory of your project.
 
 ```bash
-composer require wordplate/translator
+composer require wordplate/polylang
 ```
 
-Login to the WordPress administrator dashboard and activate the [Polylang](https://wordpress.org/plugins/polylang/) plugin. Go to the Polylang settings page and add at least one language.
+Login to the WordPress administrator dashboard and activate the [Polylang](https://wordpress.org/plugins/polylang) plugin. Go to the Polylang settings page and add at least one language.
 
 ## Usage
 
@@ -41,7 +41,7 @@ echo trans('contact-email');
 
 ## Documentation
 
-Please visit [Polylang's documentation](https://wordpress.org/plugins/polylang/) to find out more about translating your post types.
+Please visit [Polylang's documentation](https://wordpress.org/plugins/polylang) to find out more about translating your post types.
 
 ## License
 

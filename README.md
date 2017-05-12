@@ -18,10 +18,10 @@ Login to the WordPress administrator dashboard and activate the [Polylang](https
 
 ## Usage
 
-Register the translations with the `register_translations` method. They will now be available for translation on the 'Strings translations' page in the WordPress administrator dashboard.
+Register the translations with the `pll_translations` function. They will now be available for translation on the 'Strings translations' page in the WordPress administrator dashboard.
 
 ```php
-register_translations([
+pll_translations([
     'general' => [
         'English' => 'The english language',
         'Swedish' => 'The swedish language',

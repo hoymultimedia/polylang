@@ -25,8 +25,8 @@ class HelpersTest extends TestCase
     /**
      * @expectedException \BadFunctionCallException
      */
-    public function testRegisterTranslations()
+    public function testPllTranslations()
     {
-        register_translations([]);
+        pll_translations([]);
     }
 }

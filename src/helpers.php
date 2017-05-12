@@ -11,7 +11,7 @@
 
 declare(strict_types=1);
 
-if (!function_exists('register_translations')) {
+if (!function_exists('pll_translations')) {
     /**
      * Register translations.
      *
@@ -22,7 +22,7 @@ if (!function_exists('register_translations')) {
      *
      * @return void
      */
-    function register_translations(array $groups, $multiline = false)
+    function pll_translations(array $groups, $multiline = false)
     {
         if (!function_exists('pll_register_string')) {
             throw new BadFunctionCallException('Please activate the Polylang plugin and configure it with at least one languge.');

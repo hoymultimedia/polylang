@@ -3,6 +3,7 @@
 ## 2.0.0 (upcoming)
 
 - Update package name
+- Update polylang version
 
 ## 1.2.0 (released 2017-01-29)
 

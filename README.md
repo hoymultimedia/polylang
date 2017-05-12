@@ -2,7 +2,9 @@
 
 A [Polylang](https://wordpress.org/plugins/polylang) helper for [WordPlate](https://wordplate.github.io).
 
+[![Build Status](https://img.shields.io/travis/wordplate/polylang/master.svg?style=flat)](https://travis-ci.org/wordplate/polylang)
 [![StyleCI](https://styleci.io/repos/58547586/shield?style=flat)](https://styleci.io/repos/58547586)
+[![Coverage Status](https://img.shields.io/codecov/c/github/wordplate/polylang.svg?style=flat)](https://codecov.io/github/wordplate/polylang)
 [![Latest Version](https://img.shields.io/github/release/wordplate/polylang.svg?style=flat)](https://github.com/wordplate/polylang/releases)
 [![License](https://img.shields.io/packagist/l/wordplate/polylang.svg?style=flat)](https://packagist.org/packages/wordplate/polylang)
 

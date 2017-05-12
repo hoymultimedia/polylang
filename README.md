@@ -35,7 +35,7 @@ pll_translations([
 ]);
 ```
 
-Then to fetch and print a translation you can use the `trans` method like you would use regular gettext [__()](https://developer.wordpress.org/reference/functions/__).
+Then to fetch and print a translation you can use the `trans` function like you would use regular [__()](https://developer.wordpress.org/reference/functions/__) function.
 
 ```php
 echo trans('contact-email');

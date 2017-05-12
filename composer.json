@@ -17,7 +17,7 @@
     ],
     "require": {
         "php": "^7.0",
-        "wpackagist-plugin/polylang": "^1.9"
+        "wpackagist-plugin/polylang": "^2.1"
     },
     "autoload": {
         "files": [

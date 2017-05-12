@@ -1,5 +1,3 @@
-## WARNING! This package is no longer maintained.
-
 # Translator
 
 A translations helper for [WordPlate](https://wordplate.github.io/) built with [Polylang](https://wordpress.org/plugins/polylang/).
@@ -16,27 +14,26 @@ Require this package, with [Composer](https://getcomposer.org/), in the root dir
 composer require wordplate/translator
 ```
 
-Login to the WordPress administrator dashboard and active the [Polylang](https://wordpress.org/plugins/polylang/) plugin.
+Login to the WordPress administrator dashboard and activate the [Polylang](https://wordpress.org/plugins/polylang/) plugin. Go to the Polylang settings page and add at least one language.
 
 ## Usage
 
-Register the translations with the `register_translations` method.
+Register the translations with the `register_translations` method. They will now be available for translation on the 'Strings translations' page in the WordPress administrator dashboard.
 
 ```php
 register_translations([
     'general' => [
-        'general-language-english' => 'The english language',
-        'general-language-swedish' => 'The swedish language',
+        'English' => 'The english language',
+        'Swedish' => 'The swedish language',
     ],
-    'contact' => [
-        'contact-email' => 'Contact page email string',
-        'contact-mobile' => 'Contact page mobile string',
-        'contact-telephone' => 'Contact page telephone string',
+    'cookie-bar' => [
+        'This website uses cookies to ensure you get the best experience on our website.' => 'Cookie bar message',
+        'I understand' => 'Cookie bar button text'
     ],
 ]);
 ```
 
-Then to fetch and print a translation you can use the `trans` method.
+Then to fetch and print a translation you can use the `trans` method like you would use regular [gettext __()](https://codex.wordpress.org/Function_Reference/_2).
 
 ```php
 echo trans('contact-email');

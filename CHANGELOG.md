@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## 2.0.0 (upcoming)
+## 2.0.0 (released 2017-05-14)
 
 - Added pll_translations function
 - Update package name

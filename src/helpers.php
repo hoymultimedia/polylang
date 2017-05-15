@@ -25,7 +25,7 @@ if (!function_exists('pll_translations')) {
     function pll_translations(array $groups, $multiline = false)
     {
         if (!function_exists('pll_register_string')) {
-            throw new BadFunctionCallException('Please activate the Polylang plugin and configure it with at least one languge.');
+            throw new BadFunctionCallException('Please activate the Polylang plugin and configure it with at least one language.');
         }
 
         foreach ($groups as $group => $translations) {
@@ -50,7 +50,7 @@ if (!function_exists('trans')) {
     function trans(string $key, string $lang = null): string
     {
         if (!function_exists('pll__')) {
-            throw new BadFunctionCallException('Please activate the Polylang plugin and configure it with at least one languge.');
+            throw new BadFunctionCallException('Please activate the Polylang plugin and configure it with at least one language.');
         }
 
         if ($lang) {

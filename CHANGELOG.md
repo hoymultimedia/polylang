@@ -3,7 +3,7 @@
 ## 3.0.0 (released 2017-09-19)
 
 - Added dashboard notice for missing functions
-- Remove exceptions for missing functions
+- Removed exceptions for missing functions
 
 ## 2.0.0 (released 2017-05-14)
 

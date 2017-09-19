@@ -23,9 +23,11 @@ if (!function_exists('pll_translations')) {
     function pll_translations(array $groups, $multiline = false)
     {
         if (!function_exists('pll_register_string')) {
-            add_action('admin_notices', function () {
-                printf('<div class="notice notice-error"><p>Please <a href="%s">activate</a> the Polylang plugin and configure it with at least one <a href="%s">language</a>.</p></div>', admin_url('plugins.php'), admin_url('admin.php?page=mlang'));
-            });
+            if (function_exists('add_action')) {
+                add_action('admin_notices', function () {
+                    printf('<div class="notice notice-error"><p>Please <a href="%s">activate</a> the Polylang plugin and configure it with at least one <a href="%s">language</a>.</p></div>', admin_url('plugins.php'), admin_url('admin.php?page=mlang'));
+                });
+            }
         } else {
             foreach ($groups as $group => $translations) {
                 foreach ($translations as $key => $description) {
@@ -48,9 +50,11 @@ if (!function_exists('trans')) {
     function trans(string $key, string $lang = null): string
     {
         if (!function_exists('pll__') || !function_exists('pll_translate_string')) {
-            add_action('admin_notices', function () {
-                printf('<div class="notice notice-error"><p>Please <a href="%s">activate</a> the Polylang plugin and configure it with at least one <a href="%s">language</a>.</p></div>', admin_url('plugins.php'), admin_url('admin.php?page=mlang'));
-            });
+            if (function_exists('add_action')) {
+                add_action('admin_notices', function () {
+                    printf('<div class="notice notice-error"><p>Please <a href="%s">activate</a> the Polylang plugin and configure it with at least one <a href="%s">language</a>.</p></div>', admin_url('plugins.php'), admin_url('admin.php?page=mlang'));
+                });
+            }
         }
 
         if (function_exists('pll_translate_string') && $lang) {

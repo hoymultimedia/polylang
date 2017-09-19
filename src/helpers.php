@@ -65,6 +65,10 @@ if (!function_exists('trans')) {
             return pll__($key);
         }
 
-        return __($key);
+        if (function_exists('__')) {
+            return __($key);
+        }
+        
+        return $key;
     }
 }

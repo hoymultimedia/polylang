@@ -17,10 +17,10 @@
     ],
     "require": {
         "php": "^7.0",
-        "wpackagist-plugin/polylang": "^2.1"
+        "wpackagist-plugin/polylang": "^2.2"
     },
     "require-dev": {
-        "phpunit/phpunit": "^6.1"
+        "phpunit/phpunit": "^6.3"
     },
     "autoload": {
         "files": [

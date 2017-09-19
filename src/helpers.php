@@ -68,7 +68,7 @@ if (!function_exists('trans')) {
         if (function_exists('__')) {
             return __($key);
         }
-        
+
         return $key;
     }
 }

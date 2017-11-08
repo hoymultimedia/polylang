@@ -20,7 +20,7 @@ if (!function_exists('pll_translations')) {
      *
      * @return void
      */
-    function pll_translations(array $groups, $multiline = false)
+    function pll_translations(array $groups, bool $multiline = false)
     {
         if (!function_exists('pll_register_string') && function_exists('add_action')) {
             add_action('admin_notices', function () {
@@ -31,6 +31,8 @@ if (!function_exists('pll_translations')) {
         if (function_exists('pll_register_string')) {
             foreach ($groups as $group => $translations) {
                 foreach ($translations as $key => $description) {
+                    $key = sprintf('%s.%s', $group, $key);
+
                     pll_register_string($description, $key, $group, $multiline);
                 }
             }

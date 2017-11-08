@@ -30,10 +30,10 @@ if (!function_exists('pll_translations')) {
 
         if (function_exists('pll_register_string')) {
             foreach ($groups as $group => $translations) {
-                foreach ($translations as $key => $description) {
+                foreach ($translations as $key => $string) {
                     $key = sprintf('%s.%s', $group, $key);
 
-                    pll_register_string($description, $key, $group, $multiline);
+                    pll_register_string($string, $key, $group, $multiline);
                 }
             }
         }

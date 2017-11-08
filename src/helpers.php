@@ -33,7 +33,7 @@ if (!function_exists('pll_translations')) {
                 foreach ($translations as $key => $description) {
                     $key = sprintf('%s.%s', $group, $key);
 
-                    pll_register_string($description, $key, $group, $multiline);
+                    pll_register_string($key, $description, $group, $multiline);
                 }
             }
         }

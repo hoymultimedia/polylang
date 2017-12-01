@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "php": "^7.0",
+        "php": "^7.1",
         "wpackagist-plugin/polylang": "^2.2"
     },
     "require-dev": {

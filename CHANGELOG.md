@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 4.0.0 (released 2018-03-12)
+
+- Rename package to hoy/polylang
+
 ## 3.0.0 (released 2017-09-19)
 
 - Added dashboard notice for missing functions

@@ -2,18 +2,18 @@
 
 A [Polylang](https://wordpress.org/plugins/polylang) helper for [WordPlate](https://wordplate.github.io).
 
-[![Build Status](https://img.shields.io/travis/wordplate/polylang/master.svg?style=flat)](https://travis-ci.org/wordplate/polylang)
+[![Build Status](https://img.shields.io/travis/hoy/polylang/master.svg?style=flat)](https://travis-ci.org/hoy/polylang)
 [![StyleCI](https://styleci.io/repos/58547586/shield?style=flat)](https://styleci.io/repos/58547586)
-[![Coverage Status](https://img.shields.io/codecov/c/github/wordplate/polylang.svg?style=flat)](https://codecov.io/github/wordplate/polylang)
-[![Latest Version](https://img.shields.io/github/release/wordplate/polylang.svg?style=flat)](https://github.com/wordplate/polylang/releases)
-[![License](https://img.shields.io/packagist/l/wordplate/polylang.svg?style=flat)](https://packagist.org/packages/wordplate/polylang)
+[![Coverage Status](https://img.shields.io/codecov/c/github/hoy/polylang.svg?style=flat)](https://codecov.io/github/hoy/polylang)
+[![Latest Version](https://img.shields.io/github/release/hoy/polylang.svg?style=flat)](https://github.com/hoy/polylang/releases)
+[![License](https://img.shields.io/packagist/l/hoy/polylang.svg?style=flat)](https://packagist.org/packages/hoy/polylang)
 
 ## Installation
 
 Require this package, with [Composer](https://getcomposer.org), in the root directory of your project.
 
 ```bash
-$ composer require wordplate/polylang
+$ composer require hoy/polylang
 ```
 
 Login to the WordPress administrator dashboard and activate the [Polylang](https://wordpress.org/plugins/polylang) plugin. Go to the Polylang settings page and add at least one language.
@@ -50,4 +50,4 @@ Please visit [Polylang's documentation](https://wordpress.org/plugins/polylang) 
 
 ## License
 
-[MIT](LICENSE) © [Vincent Klaiber](https://vinkla.com)
+[MIT](LICENSE) © [Hoy](http://hoy.se)

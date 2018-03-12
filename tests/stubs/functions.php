@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of WordPlate.
+ * This file is part of Polylang.
  *
- * (c) Vincent Klaiber <hello@vinkla.com>
+ * (c) Hoy Multimedia AB <info@hoy.se>
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.

@@ -3,6 +3,7 @@
 ## 4.0.0 (released 2018-03-12)
 
 - Rename package to hoy/polylang
+- Removed PHP 7.0 support
 
 ## 3.0.0 (released 2017-09-19)
 

@@ -50,4 +50,4 @@ Please visit [Polylang's documentation](https://wordpress.org/plugins/polylang) 
 
 ## License
 
-[MIT](LICENSE) © [Hoy](http://hoy.se)
+[MIT](LICENSE) © [Hoy Multimedia AB](http://hoy.se)
